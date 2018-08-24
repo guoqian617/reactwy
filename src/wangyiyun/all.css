@@ -1,0 +1,273 @@
+.sreach{
+    display: flex;
+    justify-content: space-between;
+    background-color:hotpink; 
+}
+.picture{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+/* .input{
+    width: 100%;
+    /* display: flex; */
+
+.am-search{
+    padding: 0;
+    background-color: hotpink;
+}
+.am-search-value{
+    border-radius: .15rem
+}
+.am-whitespace{
+    display: none;
+}
+.lunbo{
+    padding: 0;
+    margin: 0;
+    width: 25.2rem;
+    /* height:14.8rem; */
+   
+}
+.imgs{
+    padding: 0;
+    margin: 0;
+    background-repeat: repeat-x  
+}
+.am-tabs-horizontal .am-tabs-pane-wrap-active {
+    height: 10.6em;
+}
+.si{
+    width: 2.4rem;
+    height:2.4rem;
+    padding: .5rem;
+    border:.1rem solid hotpink;
+    border-radius: 50%;
+}
+.sizhang{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    text-align: center;
+    font-size:.8rem;
+    border-bottom: 1px solid wheat;
+}
+.gedan{
+   margin: 1rem 0;
+}
+.tuijian{
+    font-size:1.2rem;
+ 
+  }
+.shu{
+        font-size:1rem;
+      border-left: .2rem solid hotpink;
+}
+.pai3{
+    width:32.4%;
+    overflow:hidden;
+}
+.ps{
+    font-size: .4rem;
+    color:black;
+    /* overflow:hidden; */
+}
+.sings{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin-bottom: 18rem; */
+}
+.sings1{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 18rem;
+}
+.footer{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 33.2rem;
+   display: flex; 
+   padding: .5rem;
+   background-color: grey;
+  /* color:slategray */
+     /* justify-content: space-between;  */
+}
+.main{
+    position: relative;
+}
+/* .back1{ 
+    background-image: url('http://127.0.0.1:3000/images/faxin2.png') 
+} */
+ 
+.back1{
+    width: 2rem;
+   height: 2rem;
+    margin-right: 4rem;
+   
+}
+#back1{
+    margin-left: 1rem
+}
+.wenzi{
+    margin: 0;
+    padding: 0;
+    font-size: .6rem
+}
+#wenzi1{
+    margin-left: .8rem
+}
+#wenzi3{
+    margin-left: .3rem
+}
+#wenzi4{
+    margin-left: .3rem
+}
+.head{
+    width:1.6rem;
+    height:1.6rem;
+    /* margin-top: 0.4rem; */
+    margin:0.4rem .8rem 0 .8rem ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.guding{
+    margin-top:1rem;
+    padding-bottom: .5rem;
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+.guding>div>img{
+    width: 2rem;
+}
+.guding>div>p{
+   margin: 0;
+   padding: 0;
+}
+.li{
+    list-style: circle
+}
+#tuimg{
+width:20rem;
+height:20rem;
+border-radius: 50%;
+margin-top: 1rem;
+
+}
+.sing{
+    text-align: center;
+    background-color: darkslategray;
+}
+/* .yemei2 div:hover li{
+    display: block;
+    animation:xuanzhuan 5s infinite ;
+    outline: 1px solid violet;
+}
+.yemei2 div:hover li:last-child{
+    animation-delay: 600ms;
+} */
+.tuimg{
+    animation:xuanzhuan 50s infinite ;
+}
+@keyframes xuanzhuan {
+    from{ transform:rotate(0deg);}
+    to{transform:rotate(360deg)}
+}
+.singHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bofang{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    margin-top: 5rem;
+}
+.bofang>img{
+    width: 2rem;
+    height:2rem;
+}
+.yincang{
+    display: none;
+}
+.chuxian{
+    display: block;
+}
+.am-list-header{
+    font-size: 1.6rem;
+}
+.am-search{
+    width: 16rem;
+}
+
+.left{
+    position: absolute;
+    left: -.6rem;
+    top: -.5rem;
+}
+
+.right {
+    position: absolute;
+    left: 19rem;
+    top: -.5rem;
+}
+.danqu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: .8rem;
+}
+.am-tabs-horizontal .am-tabs-pane-wrap-active {
+    height: auto;
+}
+.gez{
+    display: flex;
+    padding: 0.5rem;
+    border-bottom: .01rem solid darkgray;
+   /* text-align: center; */
+}
+.zhuan{
+    align-self: center;
+    margin-right: .5rem;
+}
+.gez1{
+    display: flex;
+    padding: 0.8rem 0;
+    border-bottom: .01rem solid darkgray;
+    justify-content: space-between;
+   /* text-align: center; */
+}
+.wenzim{
+align-self: center;
+color:white;
+}
+.flexOne{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem ;
+    border-bottom: .01rem solid lightgray;
+}
+.flexOne1{
+    display: flex;
+    color:black
+  
+}
+.all{
+    position: relative;
+}
+.kai{
+    position: absolute;
+    top:5rem;
+    left: 10rem;
+}
+.none{
+    display: none;
+}
